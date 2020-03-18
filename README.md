@@ -47,6 +47,17 @@ This repository contains sample projects to generate apps, games and other conte
   - [UwpNetNativeApp](UwpNetNativeApp/README.md)
   - [UwpAddOn](UwpAddOn/README.md)
 
+### Execution Policy
+
+Note: If Powershell is run for the first time on your machine, make sure the Execution policy is set to RemoteSigned or Unrestricted.
+1. Open up Powershell in Administrator mode.
+2. Enter in Get-ExecutionPolicy -list
+3. Enter in Set-ExecutionPolicy Unrestricted
+4. Enter in Get-ExecutionPolicy -list
+[How to Set-ExecutionPolicy](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7) 
+
+![ExecutionPolicyImg](//Assets/PowershellExecutionPolicy.PNG)
+
 ## Running the sample
 
 - Open the **DiceWebSampleApps.sln** in Visual Studio
